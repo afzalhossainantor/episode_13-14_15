@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+i,
+a,
+span,
+img {
+    display: inline-block;
+
+
+
+}
+
+img {
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --border: 1px solid red;
+    --gray: #606060;
+    --brand: #1447ea;
+    --white: #ffffff;
+    --black: #252525;
+    --half_black: #7c8295;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+
+}
+
+/****************/
+/*header part css start*/
+/***************/
+/* #header {} */
+
+
+
+#header .logo {
+
+    margin-top: 32px;
+    padding-left: 20px;
+}
+
+#header .logo img {
+    width: 155px;
+}
+
+/* nav {} */
+
+
+
+nav ul {
+    /* border: var(--border); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+/* nav ul li {} */
+
+nav ul li a {
+
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--gray);
+    transition-duration: .3s;
+    font-weight: 500;
+    font-family: var(--poppins);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    color: var(--brand);
+    border-bottom: 1px solid var(--brand);
+}
+
+#header .about_virus_button {
+    border: var(--brand);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--poppins);
+
+    border-radius: 30px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
+    padding: 20px 30px;
+    float: right;
+    margin-top: 27px;
+
+}
+
+/****************/
+/*header part css end*/
+/***************/
+
+
+
+/****************/
+/*banner part css start*/
+/***************/
+
+#banner {
+    padding-top: 300px;
+    padding-bottom: 170px;
+    background-image: url("../images/banner_image/bn_img.png");
+    background-size: cover;
+    background-position: center;
+    border: var(--border);
+    background-repeat: no-repeat;
+
+}
+
+/* #banner .banner_content {
+    border: var(--border);
+}
+ */
+
+
+
+#banner .banner_content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--brand);
+    font-weight: 600;
+    font-family: "Poppins";
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+#banner .banner_content h2 {
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--gray);
+    font-weight: 600;
+    font-family: var(--poppins);
+    /* text-transform: ; */
+    padding-bottom: 20px;
+}
+
+#banner .banner_content a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--poppins);
+    margin-top: 30px;
+    padding: 25px 50px;
+    border-radius: 30px;
+    background-color: var(--brand);
+    text-transform: uppercase;
+}
+
+/**************/
+/*banner part css end*/
+/*************/
+
+
+
+/**********/
+/*about part css start*/
+/********/
+
+#about {
+    border: var(--border);
+}
+
+#about .about_image {
+    /* padding-top: 140px; */
+    /* border: var(--border); */
+    /* height: 90%; */
+    margin-top: 140px;
+    height: calc(100% - 140px);
+    background-image: url("../images/about_image/about_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about .about_image img {
+    width: 100%;
+}
+
+/* #about .about_content_2 {} */
+
+#about .about_content_3 .content {
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--poppins);
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+
+#about .about_content_3 p {
+
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--half_black);
+    font-weight: 400;
+    font-family: var(--roboto);
+    padding-bottom: 20px;
+}
+
+
+.covid_rules {
+    padding-bottom: 110px;
+}
+    
+
+
+#about .covid_rules ul li {
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-family: var(--roboto);
+
+}
+
+ 
+/************/
+/*about part css end */
+/**********/
