@@ -241,7 +241,7 @@ nav ul li a:hover {
 .covid_rules {
     padding-bottom: 110px;
 }
-    
+
 
 
 #about .covid_rules ul li {
@@ -253,7 +253,94 @@ nav ul li a:hover {
 
 }
 
- 
+
 /************/
 /*about part css end */
+/**********/
+
+
+
+
+/***********/
+/*information part css start*/
+/**********/
+#information {
+    border: 1px solid red;
+    background-image: url("../images/information_image/information.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#information .active_cases h3 {
+    font-size: 52px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+
+#information .active_cases h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+#information .total_deaths h3 {
+    font-size: 52px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+#information .total_deaths h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+
+#information .recoverd h3 {
+    font-size: 52px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+
+#information .recoverd h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    
+}
+
+
+
+/***********/
+/*information part css end*/
 /**********/
