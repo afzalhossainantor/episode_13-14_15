@@ -345,14 +345,9 @@ nav ul li a:hover {
 /*information part css end*/
 /**********/
 
-
-
-/* symptoms part css start */
-#symptoms {
-    border: 1px solid red;
-    background-color: #f7f9fb;
-}
-
+/**********/
+/*common heading part css start*/
+/********/
 .common_heading {
     /* border: 1px solid red; */
     text-align: center;
@@ -385,6 +380,26 @@ nav ul li a:hover {
     height: 40px;
 }
 
+.common_heading_white h6,
+.common_heading_white h2 {
+    color: var(--white);
+}
+
+
+
+/**********/
+/*common heading part css end*/
+/********?
+
+
+/* symptoms part css start */
+#symptoms {
+    border: 1px solid red;
+    background-color: #f7f9fb;
+}
+
+
+
 #symptoms .feaver_body {
     /* border: 1px solid red; */
     background-color: var(--white);
@@ -410,25 +425,82 @@ nav ul li a:hover {
 }
 
 #symptoms .feaver_body p {
-    
+
     font-size: 16px;
     line-height: 28px;
     color: #7c8295;
     font-weight: 400;
     font-family: var(--roboto);
-    
+
 }
 
 #symptoms .feaver_body img {
     padding-bottom: 40px;
 }
 
-#symptoms .feaver_body:hover{
+#symptoms .feaver_body:hover {
     background-image: linear-gradient(0deg, #1447ea 0%, #03deec 100%);
 }
-#symptoms .feaver_body:hover h2{
+
+#symptoms .feaver_body:hover h2 {
     color: var(--white);
 }
-#symptoms .feaver_body:hover p{
+
+#symptoms .feaver_body:hover p {
     color: var(--white);
 }
+
+/***********/
+/*symptoms part css end*/
+/***********/
+
+/*********/
+/*prevention part css start*/
+/*********/
+#prevention {
+    border: var(--border);
+    background-color: #002fc7;
+}
+
+#prevention .prevention_heading_padding{
+    padding-bottom: 45px;
+}
+
+#prevention .prevention_body {
+    /* border: var(--border); */
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#prevention .prevention_body h3 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    padding-bottom: 30px;
+
+}
+
+#prevention .prevention_body p {
+    
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    
+}
+
+#prevention .prevention_body img{
+    padding-bottom: 40px;
+}
+
+/*********/
+/*prevention part css end*/
+/*********/
