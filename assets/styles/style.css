@@ -660,11 +660,11 @@ nav ul li a:hover {
     /* border: var(--border); */
     margin-top: 10px;
     margin-bottom: 30px;
-    
+
 }
 
 
-#article .prevent img{
+#article .prevent img {
     width: 100%;
 }
 
@@ -675,7 +675,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     padding-left: 20px;
 }
-    
+
 
 
 #article .prevent ul li {
@@ -685,9 +685,9 @@ nav ul li a:hover {
     font-weight: 400;
     font-family: "Roboto";
     padding-top: 30px;
-    
+
     /* padding-bottom: -25px; */
-    
+
 }
 
 #article .prevent ul li a {
@@ -698,10 +698,11 @@ nav ul li a:hover {
     font-family: var(--roboto);
 }
 
-#article .prevent ul li a:hover{
+#article .prevent ul li a:hover {
     color: var(--brand);
 }
-#article .prevent ul li a span{
+
+#article .prevent ul li a span {
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
@@ -718,7 +719,7 @@ nav ul li a:hover {
     padding-left: 20px;
 }
 
-#article .prevent  .read_more {
+#article .prevent .read_more {
     font-size: 16px;
     line-height: 16px;
     text-decoration: underline;
@@ -729,9 +730,51 @@ nav ul li a:hover {
     padding-bottom: 30px;
 }
 
-#article .prevent  .read_more:hover{
+#article .prevent .read_more:hover {
     color: var(--brand);
 }
 
 /*article part css end*/
 
+
+/*footer part css start*/
+
+#footer {}
+
+#footer .departhment {}
+
+#footer .departhment h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #252525;
+    font-weight: 600;
+    font-family: var(--poppins);
+    padding-bottom: 55px;
+}
+#footer .departhment ul li{}
+#footer .departhment ul li a{
+    font-size: 16px;
+    line-height: 22px;
+    color: #606060;
+    font-family: "icofont";
+}
+
+#footer .importent {}
+
+#footer .important h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #252525;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-bottom: 55px;
+}
+#footer .important ul li{}
+#footer .important ul li a{
+    font-size: 16px;
+    line-height: 22px;
+    color: #606060;
+    font-family: "icofont";
+}
+
+/*footer part css start*/
