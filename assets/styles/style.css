@@ -47,6 +47,7 @@ ol {
     --brand: #1447ea;
     --white: #ffffff;
     --black: #252525;
+    --tomato: #f86168;
     --half_black: #7c8295;
     --poppins: 'Poppins', sans-serif;
     --roboto: 'Roboto', sans-serif;
@@ -251,6 +252,16 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: var(--roboto);
 
+}
+
+#about .covid_rules.left ul li i {
+    color: var(--brand);
+    margin-right: 15px;
+}
+
+#about .covid_rules.right ul li i {
+    color: var(--tomato);
+    margin-right: 13px;
 }
 
 
@@ -462,7 +473,7 @@ nav ul li a:hover {
     background-color: #002fc7;
 }
 
-#prevention .prevention_heading_padding{
+#prevention .prevention_heading_padding {
     padding-bottom: 45px;
 }
 
@@ -488,19 +499,145 @@ nav ul li a:hover {
 }
 
 #prevention .prevention_body p {
-    
+
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
-    
+
 }
 
-#prevention .prevention_body img{
+#prevention .prevention_body img {
     padding-bottom: 40px;
 }
 
 /*********/
 /*prevention part css end*/
+/*********/
+
+/*********/
+/*doctors part css start*/
+/*********/
+
+#doctors{
+    margin-bottom: 170px;
+
+}
+#doctors .doc_body {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.123);
+}
+
+#doctors .doc_body img {
+    width: 100%;
+}
+
+#doctors .doc_body .doc_info {
+    /* border: var(--border); */
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top-right-radius: 106px;
+    border-top-left-radius: 106px;
+    background-color: #fefefe;
+    left: 0;
+    /* background-color: var(--white); */
+    padding-bottom: 30px;
+}
+
+#doctors .doc_body:hover .doc_info .arrow,
+#doctors .doc_body:hover .doc_info .social_icons{
+    height: unset;
+    visibility: visible;
+}
+
+#doctors .doc_body .doc_info .arrow {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: var(--border);
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 0px 5px color black;
+    background-color: var(--white);
+    transform: translatex(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    height: 0;
+    visibility: hidden;
+    transition-duration: .3s;
+}
+
+#doctors .doc_body .doc_info .arrow i {
+    color: var(--brand);
+    font-size: 18px;
+
+
+
+
+}
+
+#doctors .doc_body .doc_info .social_icons {
+    height: 0;
+    visibility: hidden;
+    transition-duration: .3s;
+     
+}
+
+#doctors .doc_body .doc_info .social_icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: var(--border); */
+    padding-top: 40px;
+    justify-content: center;
+
+}
+
+#doctors .doc_body .doc_info .social_icons ul li {}
+
+#doctors .doc_body .doc_info .social_icons ul li a {}
+
+#doctors .doc_body .doc_info .social_icons ul li a:hover i {
+    color: var(--brand);
+}
+
+#doctors .doc_body .doc_info .social_icons ul li a i {
+    font-size: 16px;
+    margin: 0px 10px;
+    color: #7c8295;
+    font-weight: 400;
+    transition-duration: .3s;
+}
+
+#doctors .doc_body .doc_info h3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #454545;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#doctors .doc_body .doc_info h4 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*********/
+/*doctors part css end*/
 /*********/
