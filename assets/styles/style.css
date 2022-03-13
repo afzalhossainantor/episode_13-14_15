@@ -140,7 +140,7 @@ nav ul li a:hover {
     background-image: url("../images/banner_image/bn_img.png");
     background-size: cover;
     background-position: center;
-    border: var(--border);
+    /* border: var(--border); */
     background-repeat: no-repeat;
 
 }
@@ -197,7 +197,7 @@ nav ul li a:hover {
 /********/
 
 #about {
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 #about .about_image {
@@ -276,7 +276,7 @@ nav ul li a:hover {
 /*information part css start*/
 /**********/
 #information {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("../images/information_image/information.png");
     background-size: cover;
     background-position: center;
@@ -377,6 +377,17 @@ nav ul li a:hover {
     padding-bottom: 20px;
 }
 
+.common_heading h5 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: var(--gray);
+    font-weight: 400;
+    font-family: var(--poppins);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .common_heading h2 {
     font-size: 40px;
     line-height: 40px;
@@ -405,7 +416,7 @@ nav ul li a:hover {
 
 /* symptoms part css start */
 #symptoms {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f7f9fb;
 }
 
@@ -520,14 +531,16 @@ nav ul li a:hover {
 /*doctors part css start*/
 /*********/
 
-#doctors{
+#doctors {
     margin-bottom: 170px;
 
 }
+
 #doctors .doc_body {
     position: relative;
     margin-bottom: 30px;
     box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.123);
+    margin-top: 10px;
 }
 
 #doctors .doc_body img {
@@ -548,7 +561,7 @@ nav ul li a:hover {
 }
 
 #doctors .doc_body:hover .doc_info .arrow,
-#doctors .doc_body:hover .doc_info .social_icons{
+#doctors .doc_body:hover .doc_info .social_icons {
     height: unset;
     visibility: visible;
 }
@@ -583,7 +596,7 @@ nav ul li a:hover {
     height: 0;
     visibility: hidden;
     transition-duration: .3s;
-     
+
 }
 
 #doctors .doc_body .doc_info .social_icons ul {
@@ -595,9 +608,9 @@ nav ul li a:hover {
 
 }
 
-#doctors .doc_body .doc_info .social_icons ul li {}
+/* #doctors .doc_body .doc_info .social_icons ul li {} */
 
-#doctors .doc_body .doc_info .social_icons ul li a {}
+/* #doctors .doc_body .doc_info .social_icons ul li a {} */
 
 #doctors .doc_body .doc_info .social_icons ul li a:hover i {
     color: var(--brand);
@@ -631,13 +644,94 @@ nav ul li a:hover {
     text-align: center;
 }
 
-
-
-
-
-
-
-
 /*********/
 /*doctors part css end*/
 /*********/
+
+
+/*article part css start*/
+
+#article {
+    /* border: var(--border); */
+    margin-bottom: 110px;
+}
+
+#article .prevent {
+    /* border: var(--border); */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+
+#article .prevent img{
+    width: 100%;
+}
+
+
+
+#article .prevent ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+    
+
+
+#article .prevent ul li {
+    font-size: 14px;
+    line-height: 14px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding-top: 30px;
+    
+    /* padding-bottom: -25px; */
+    
+}
+
+#article .prevent ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: var(--roboto);
+}
+
+#article .prevent ul li a:hover{
+    color: var(--brand);
+}
+#article .prevent ul li a span{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+#article .prevent p {
+
+    font-size: 20px;
+    line-height: 26px;
+    color: #454545;
+    font-weight: 500;
+    font-family: var(--poppins);
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+#article .prevent  .read_more {
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: #7c8295;
+    font-weight: 500;
+    font-family: var(--poppins);
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+#article .prevent  .read_more:hover{
+    color: var(--brand);
+}
+
+/*article part css end*/
+
