@@ -739,7 +739,70 @@ nav ul li a:hover {
 
 /*footer part css start*/
 
-#footer {}
+#footer {
+    /* border: var(--border); */
+    padding-top: 140px;
+    
+}
+#footer .footer_top{
+    padding-bottom: 120px;
+}
+
+#footer .about_location .logo_img_ft {
+    /* margin-bottom: 5px; */
+    padding-bottom: 45px;
+
+
+}
+
+#footer .about_location {}
+
+#footer .about_location .paragraph {
+    /* border: var(--border); */
+    font-size: 16px;
+    line-height: 28px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding-bottom: 20px;
+
+}
+
+#footer .contact {}
+
+#footer .contact .contact_icon {
+    /* border: var(--border); */
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#footer .about_location .contact .contact_icon i {
+    /* border: var(--border); */
+    font-size: 20px;
+    padding-right: 15px;
+    color: #606060;
+
+}
+
+#footer .about_location .contact .contact_icon ul {
+    /* border: var(--border); */
+}
+
+footer .about_location .contact .contact_icon ul li {}
+
+#footer .about_location .contact .contact_icon ul li a {
+    /* border: var(--border); */
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #606060;
+    font-weight: 400;
+    font-family: var(--poppins);
+}
+
+#footer .about_location .contact .contact_icon {}
+
+
 
 #footer .departhment {}
 
@@ -750,14 +813,27 @@ nav ul li a:hover {
     font-weight: 600;
     font-family: var(--poppins);
     padding-bottom: 55px;
+    padding-top: 10px;
 }
-#footer .departhment ul li{}
-#footer .departhment ul li a{
+
+#footer .departhment ul li {}
+
+#footer .departhment ul li:hover i {
+    color: var(--brand);
+    transition-duration: .5s;
+}
+
+#footer .departhment ul li a {
     font-size: 16px;
     line-height: 22px;
     color: #606060;
     font-family: "icofont";
 }
+
+#footer .departhment ul li a i {
+    margin-right: 15px;
+}
+
 
 #footer .importent {}
 
@@ -768,13 +844,153 @@ nav ul li a:hover {
     font-weight: 600;
     font-family: "Poppins";
     padding-bottom: 55px;
+    padding-top: 10px;
 }
-#footer .important ul li{}
-#footer .important ul li a{
+
+#footer .important ul li {}
+
+#footer .important ul li:hover i {
+    color: var(--brand);
+}
+
+#footer .important ul li a {
     font-size: 16px;
     line-height: 22px;
     color: #606060;
     font-family: "icofont";
+}
+
+#footer .important ul li a i {
+    margin-right: 15px;
+}
+
+
+#footer .newsletter {
+    /* border: var(--border); */
+}
+
+#footer .newsletter .heading_1 {
+    /* border: var(--border); */
+}
+
+#footer .newsletter .heading_1 h2 {
+    /* border: var(--border); */
+    font-size: 20px;
+    line-height: 20px;
+    color: #252525;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin-top: 5px;
+}
+
+#footer .newsletter .heading_1 p {
+    /* border: var(--border); */
+    padding-top: 55px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: var(--roboto);
+    padding-bottom: 15px;
+}
+
+#footer .newsletter .form form input {
+    width: 100%;
+    border-radius: 28px;
+    background-color: var(--white);
+    border: 1px solid var(--brand);
+    padding-left: 30px;
+
+    font-size: 16px;
+    line-height: 22px;
+    color: #a3a8b8;
+    font-weight: 400;
+    font-family: var(--poppins);
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+#footer .newsletter .form form {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#footer .newsletter .form form button {
+
+    /* font-family: "icofont"; */
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
+    border: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+
+#footer .newsletter .form form button i {
+    font-size: 24px;
+    line-height: 22px;
+    color: #ffffff;
+
+}
+
+
+
+#footer .newsletter .footer_social_icon {
+    /* border: var(--border); */
+}
+
+#footer .newsletter .footer_social_icon ul {
+    display: flex;
+}
+
+#footer .newsletter .footer_social_icon ul li {
+    padding-right: 20px;
+}
+
+#footer .newsletter .footer_social_icon ul li a {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    /* background-color: #c77c1a; */
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.205);
+
+
+}
+
+
+#footer .newsletter .footer_social_icon ul li a i {
+    font-size: 16px;
+    line-height: 25px;
+    color: #7c8295;
+    /* font-family: var(--poppins); */
+}
+
+#footer .footer_social_icon ul li:hover a i {
+    color: var(--brand);
+}
+
+
+#footer #copyright {
+    padding-top: 35px;
+    text-align: center;
+    border: var(--border);
+    background-color: #f8f9fc;
+    padding-bottom: 35px;
+}
+
+#footer .copyright p {
+   
+}
+
+#footer .copyright p span {
+    
 }
 
 /*footer part css start*/
