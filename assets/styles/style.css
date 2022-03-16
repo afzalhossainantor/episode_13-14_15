@@ -104,6 +104,8 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--brand);
     border-bottom: 1px solid var(--brand);
+    /* border: 1px solid var(--brand); */
+    /* background-color: #a3a8b8; */
 }
 
 #header .about_virus_button {
@@ -135,7 +137,7 @@ nav ul li a:hover {
 /***************/
 
 #banner {
-    padding-top: 300px;
+    padding-top: 295px;
     padding-bottom: 170px;
     background-image: url("../images/banner_image/bn_img.png");
     background-size: cover;
@@ -145,10 +147,10 @@ nav ul li a:hover {
 
 }
 
-/* #banner .banner_content {
-    border: var(--border);
+#banner .banner_content {
+    /* border: var(--border); */
 }
- */
+ 
 
 
 
@@ -159,7 +161,7 @@ nav ul li a:hover {
     font-weight: 600;
     font-family: "Poppins";
     text-transform: capitalize;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #banner .banner_content h2 {
@@ -169,7 +171,7 @@ nav ul li a:hover {
     font-weight: 600;
     font-family: var(--poppins);
     /* text-transform: ; */
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 #banner .banner_content a {
@@ -179,8 +181,8 @@ nav ul li a:hover {
     color: var(--white);
     font-weight: 500;
     font-family: var(--poppins);
-    margin-top: 30px;
-    padding: 25px 50px;
+    margin-top: 40px;
+    padding: 20px 50px;
     border-radius: 30px;
     background-color: var(--brand);
     text-transform: uppercase;
@@ -224,23 +226,23 @@ nav ul li a:hover {
     color: var(--black);
     font-weight: 600;
     font-family: var(--poppins);
-    padding-top: 250px;
+    padding-top: 275px;
     padding-bottom: 40px;
 }
 
 #about .about_content_3 p {
 
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     color: var(--half_black);
     font-weight: 400;
     font-family: var(--roboto);
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 
 .covid_rules {
-    padding-bottom: 110px;
+    padding-bottom: 120px;
 }
 
 
@@ -248,7 +250,7 @@ nav ul li a:hover {
 #about .covid_rules ul li {
     font-size: 17px;
     line-height: 28px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-family: var(--roboto);
 
@@ -261,7 +263,7 @@ nav ul li a:hover {
 
 #about .covid_rules.right ul li i {
     color: var(--tomato);
-    margin-right: 13px;
+    margin-right: 12px;
 }
 
 
@@ -276,7 +278,7 @@ nav ul li a:hover {
 /*information part css start*/
 /**********/
 #information {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-image: url("../images/information_image/information.png");
     background-size: cover;
     background-position: center;
@@ -289,7 +291,7 @@ nav ul li a:hover {
     color: #ffffff;
     font-weight: 600;
     font-family: "Poppins";
-    padding-top: 100px;
+    padding-top: 96px;
     padding-bottom: 10px;
 
 }
@@ -302,7 +304,7 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: "Poppins";
     text-transform: uppercase;
-    padding-bottom: 80px;
+    padding-bottom: 85px;
 }
 
 #information .total_deaths h3 {
@@ -311,7 +313,7 @@ nav ul li a:hover {
     color: #ffffff;
     font-weight: 600;
     font-family: "Poppins";
-    padding-top: 100px;
+    padding-top: 96px;
     padding-bottom: 10px;
 }
 
@@ -323,7 +325,7 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: "Poppins";
     text-transform: uppercase;
-    padding-bottom: 80px;
+    padding-bottom: 85px;
 }
 
 
@@ -333,7 +335,7 @@ nav ul li a:hover {
     color: #ffffff;
     font-weight: 600;
     font-family: "Poppins";
-    padding-top: 100px;
+    padding-top: 96px;
     padding-bottom: 10px;
 
 }
@@ -346,7 +348,7 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: "Poppins";
     text-transform: uppercase;
-    padding-bottom: 80px;
+    padding-bottom: 85px;
 
 }
 
@@ -362,7 +364,7 @@ nav ul li a:hover {
 .common_heading {
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 65px;
+    padding-top: 135px; 
     padding-bottom: 65px;
 }
 
@@ -375,6 +377,7 @@ nav ul li a:hover {
     font-family: var(--poppins);
     text-align: center;
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .common_heading h5 {
@@ -418,6 +421,7 @@ nav ul li a:hover {
 #symptoms {
     /* border: 1px solid red; */
     background-color: #f7f9fb;
+    padding-bottom: 125px;
 }
 
 
@@ -425,7 +429,7 @@ nav ul li a:hover {
 #symptoms .feaver_body {
     /* border: 1px solid red; */
     background-color: var(--white);
-    padding-left: 30px;
+    padding-left: 45px;
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -444,11 +448,12 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: var(--poppins);
     padding-bottom: 35px;
+    /* text-transform: uppercase; */
 }
 
 #symptoms .feaver_body p {
 
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
     color: #7c8295;
     font-weight: 400;
@@ -828,6 +833,7 @@ footer .about_location .contact .contact_icon ul li {}
     line-height: 22px;
     color: #606060;
     font-family: "icofont";
+    
 }
 
 #footer .departhment ul li a i {
@@ -842,7 +848,7 @@ footer .about_location .contact .contact_icon ul li {}
     line-height: 20px;
     color: #252525;
     font-weight: 600;
-    font-family: "Poppins";
+    font-family: var(--poppins);
     padding-bottom: 55px;
     padding-top: 10px;
 }
@@ -857,7 +863,7 @@ footer .about_location .contact .contact_icon ul li {}
     font-size: 16px;
     line-height: 22px;
     color: #606060;
-    font-family: "icofont";
+    /* font-family: "icofont"; */
 }
 
 #footer .important ul li a i {
