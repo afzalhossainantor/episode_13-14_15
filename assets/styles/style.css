@@ -364,7 +364,7 @@ nav ul li a:hover {
 .common_heading {
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 135px; 
+    padding-top: 130px; 
     padding-bottom: 65px;
 }
 
@@ -499,7 +499,7 @@ nav ul li a:hover {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 115px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
