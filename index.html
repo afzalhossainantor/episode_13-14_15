@@ -23,17 +23,17 @@
     <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-2 ">
+                <div class="col-sm-12 col-md-2">
                     <!-- logo part start -->
                     <div class="logo">
                         <img src="./assets/images/logo_image/logo.png" alt="">
                     </div>
                     <!-- logo part end -->
                 </div>
-                <div class="col-sm-10 col-md-8 ">
+                <div class="col-sm-12 col-md-8 order-3 order-sm-2">
                     <!-- nav part start -->
                     <nav>
-                        <ul>
+                        <ul id="nav_links">
                             <li>
                                 <a href="#">Home</a>
                             </li>
@@ -53,12 +53,20 @@
                     </nav>
                     <!-- nav part end -->
                 </div>
-                <div class="col-sim-2 col-md-2">
+                <div class="col-sm-12 col-md-2 order-2 oreder-sm-3  ">
                     <!-- about virus button start -->
-                    <a href="#" class=" about_virus_button">
+                    <button onclick="nav_links.classList.toggle('active')"
+                        class="btn btn-primary float-end d-md-none d-block mt-5">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                    <a href="#" class="about_virus_button">
                         About Virus
                     </a>
                     <!-- about virus button end -->
+
+
+
+
                 </div>
             </div>
         </div>
@@ -81,10 +89,8 @@
                         </h2>
                         <a href="#">how to prevant</a>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -321,7 +327,7 @@
                         <img src="./assets/images/prevention_image/prevention.png" alt="">
                     </div>
 
-                    
+
                 </div>
             </div>
 

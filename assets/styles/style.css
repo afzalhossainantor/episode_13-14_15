@@ -81,7 +81,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-
+    
 }
 
 /* nav ul li {} */
@@ -760,7 +760,7 @@ nav ul li a:hover {
 
 }
 
-#footer .about_location {}
+/* #footer .about_location {} */
 
 #footer .about_location .paragraph {
     /* border: var(--border); */
@@ -773,7 +773,7 @@ nav ul li a:hover {
 
 }
 
-#footer .contact {}
+/* #footer .contact {} */
 
 #footer .contact .contact_icon {
     /* border: var(--border); */
@@ -793,7 +793,7 @@ nav ul li a:hover {
     /* border: var(--border); */
 }
 
-footer .about_location .contact .contact_icon ul li {}
+/* footer .about_location .contact .contact_icon ul li {} */
 
 #footer .about_location .contact .contact_icon ul li a {
     /* border: var(--border); */
@@ -805,11 +805,11 @@ footer .about_location .contact .contact_icon ul li {}
     font-family: var(--poppins);
 }
 
-#footer .about_location .contact .contact_icon {}
+/* #footer .about_location .contact .contact_icon {} */
 
 
 
-#footer .departhment {}
+/* #footer .departhment {} */
 
 #footer .departhment h2 {
     font-size: 20px;
@@ -821,7 +821,7 @@ footer .about_location .contact .contact_icon ul li {}
     padding-top: 10px;
 }
 
-#footer .departhment ul li {}
+/* #footer .departhment ul li {} */
 
 #footer .departhment ul li:hover i {
     color: var(--brand);
@@ -841,7 +841,7 @@ footer .about_location .contact .contact_icon ul li {}
 }
 
 
-#footer .importent {}
+/* #footer .importent {} */
 
 #footer .important h2 {
     font-size: 20px;
@@ -853,7 +853,7 @@ footer .about_location .contact .contact_icon ul li {}
     padding-top: 10px;
 }
 
-#footer .important ul li {}
+/* #footer .important ul li {} */
 
 #footer .important ul li:hover i {
     color: var(--brand);
@@ -991,12 +991,12 @@ footer .about_location .contact .contact_icon ul li {}
     padding-bottom: 35px;
 }
 
-#footer .copyright p {
+/* #footer .copyright p {} */
    
-}
 
-#footer .copyright p span {
+
+/* #footer .copyright p span {} */
     
-}
+
 
 /*footer part css start*/
