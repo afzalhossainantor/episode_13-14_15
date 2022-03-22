@@ -1,72 +1,350 @@
 @media screen and (max-width: 575.98px) {
-    nav{
+    nav {
         position: relative;
     }
+
     nav ul {
-        
+
         flex-direction: column;
         position: absolute;
         right: 0;
         border-radius: 7px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
         padding: 15px 15px;
-        display: none;  
+        display: none;
+        background-color: var(--white);
     }
-    nav ul.active{
+
+    nav ul.active {
         display: block;
     }
+
     nav ul li a {
-        
+
         padding-top: 12px;
         padding-bottom: 12px;
-      
+
     }
+
     #header .about_virus_button {
-        
+
         float: left;
         margin-bottom: 15px;
+    }
+
+    #header .about_virus_button {
+
+        font-size: 12px;
+        line-height: 12px;
+        border-radius: 30px;
+        padding: 12px 19px;
+        margin-top: 15px;
+    }
+
+    .toggle_btn {
+        margin-top: 17px;
+    }
+
+    #header .logo img {
+        width: 140px;
+        margin: auto;
+        display: block;
+
+    }
+
+    #header .logo {
+        margin-top: 20px;
+
+    }
+
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #banner .banner_content h1 {
+        font-size: 30px;
+        line-height: 20px;
+        padding-bottom: 15px;
+
+    }
+
+    #banner .banner_content h2 {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 10px;
+
+    }
+
+    #banner .banner_content a {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 15px;
+        padding: 15px 25px;
+        border-radius: 20px;
+
+    }
+
+
+
+
+    #about .about_content_3 p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        padding-bottom: 5px;
+    }
+
+    #about .about_content_3 h2 {
+        text-align: center;
+        margin: 4px;
+    }
+
+    #about .about_content_3 .content {
+        padding-top: 15px;
+    }
+
+    .covid_rules {
+        padding-bottom: 40px;
+    }
+
+    #about .covid_rules ul li {
+        font-size: 12px;
+        line-height: 20px;
+        /* padding-bottom: 10px; */
+
+
+    }
+
+    #about .covid_rules.left ul li i {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    #about .covid_rules.right ul li i {
+
+        margin-right: 10px;
+    }
+
+    #information .active_cases h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    #information .active_cases h4 {
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+
+    #information .total_deaths h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    #information .total_deaths h4 {
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    #information .recoverd h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    #information .recoverd h4 {
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        padding-bottom: 50px;
+    }
+
+    .common_heading {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .common_heading h6 {
+        font-size: 12px;
+        line-height: 13px;
+        padding-bottom: 10px;
+   
+    }
+
+    .common_heading h2 {
+        font-size: 26px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .common_heading img {
+        height: 30px;
+    }
+
+    #symptoms {
+       padding-bottom: 30px;
+    }
+
+    #symptoms .feaver_body h2 {
+        font-size: 17px;
+        line-height: 11px;
+        padding-bottom: 20px;
+    }
+
+    #symptoms .feaver_body p {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    #symptoms .feaver_body img {
+        padding-bottom: 30px;
+    }
+
+    #symptoms .feaver_body {
+      
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 33px;
+        padding-bottom: 38px;
+        border-radius: 25px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+      
+    }
+
+    #prevention .prevention_body {
+       
+        padding-bottom: 0px;
+      
+    }
+
+    #prevention .prevention_heading_padding {
+        padding-bottom: 15px;
+    }
+
+    .common_heading h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .common_heading h6 {
+        font-size: 12px;
+        line-height: 10px;
+        padding-bottom: 11px;
+    }
+
+    #footer {
+        
+        padding-top: 0px;
+    }
+
+    #article {
+        /* border: var(--border); */
+        margin-bottom: 30px;
+    }
+
+    #footer .newsletter .footer_social_icon ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer .footer_top {
+        padding-bottom: 30px;
+    }
+
+    #footer #copyright {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #footer .newsletter .heading_1 p {
+        padding-top: 20px;
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 16px;
+    }
+    
+    #footer .newsletter .heading_1 h2 {
+       
+        font-size: 20px;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    #footer .important h2 {
+        
+        padding-bottom: 20px;
+        padding-top: 22px;
+    }
+
+    #footer .departhment h2 {
+      
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #footer .about_location .paragraph {
+       text-align: justify;
+    }
+    #doctors {
+        margin-bottom: 10px;
     }
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    nav{
+    nav {
         position: relative;
     }
+
     nav ul {
-        
+
         flex-direction: column;
         position: absolute;
         right: 0;
         border-radius: 7px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
         padding: 15px 15px;
-        display: none;  
+        display: none;
     }
-    nav ul.active{
+
+    nav ul.active {
         display: block;
     }
+
     nav ul li a {
-        
+
         padding-top: 12px;
         padding-bottom: 12px;
-      
+
     }
+
     #header .about_virus_button {
-        
+
         float: left;
         margin-bottom: 15px;
     }
-}
-@media screen and (max-width: 767.98px) {
+   
     #about .about_image {
-
-        height: 505px;
+        margin-top: 60px;
     }
 
     #about .about_content_3 .content {
 
-        padding-top: 85px;
+        padding-top: 30px;
 
     }
 
@@ -75,16 +353,23 @@
         margin: 10px;
     }
 
-    #information .recoverd h3 {
-
-        padding-top: 0;
-    }
-
     #prevention .prevention_body {
 
         margin-top: 5px;
 
     }
+   
+
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+    #about .about_image {
+        height: 475px;
+    }
+
+
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
@@ -96,6 +381,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     #header .about_virus_button {
         font-size: 12px;
         line-height: 11px;

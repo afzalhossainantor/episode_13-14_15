@@ -99,6 +99,7 @@ nav ul li a {
     padding-top: 50px;
     padding-bottom: 50px;
     border-bottom: 1px solid transparent;
+    
 }
 
 nav ul li a:hover {
@@ -278,7 +279,7 @@ nav ul li a:hover {
 /*information part css start*/
 /**********/
 #information {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("../images/information_image/information.png");
     background-size: cover;
     background-position: center;
@@ -332,12 +333,11 @@ nav ul li a:hover {
 #information .recoverd h3 {
     font-size: 52px;
     line-height: 65px;
-    color: #ffffff;
-    font-weight: 600;
-    font-family: "Poppins";
     padding-top: 96px;
     padding-bottom: 10px;
-
+    color: var(--white);
+    font-weight: 600;
+    font-family: "Poppins";
 }
 
 #information .recoverd h4 {
@@ -475,7 +475,7 @@ nav ul li a:hover {
 
 #symptoms .feaver_body:hover p {
     color: var(--white);
-}
+}   
 
 /***********/
 /*symptoms part css end*/
@@ -485,7 +485,7 @@ nav ul li a:hover {
 /*prevention part css start*/
 /*********/
 #prevention {
-    border: var(--border);
+    /* border: var(--border); */
     background-color: #002fc7;
 }
 
@@ -575,7 +575,7 @@ nav ul li a:hover {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    border: var(--border);
+    /* border: var(--border); */
     text-align: center;
     line-height: 45px;
     box-shadow: 0px 0px 5px color black;
@@ -932,8 +932,8 @@ nav ul li a:hover {
     background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
     border: 0;
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 7px;
+    top: 9px;
 
 }
 
@@ -986,7 +986,7 @@ nav ul li a:hover {
 #footer #copyright {
     padding-top: 35px;
     text-align: center;
-    border: var(--border);
+    /* border: var(--border); */
     background-color: #f8f9fc;
     padding-bottom: 35px;
 }
